@@ -63,7 +63,6 @@ const CustomLegend = (props) => {
           ></span>
           <span style={{ color: "#121212", fontSize: "12px" }}>
             {" "}
-            {/* Set text color to #A6ABC8 */}
             {formatLegend(entry.value)}
           </span>
         </div>
