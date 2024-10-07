@@ -1,8 +1,20 @@
+import NavBar from "./components/NavBar";
+import SideBar from "./components/SideBar";
+import DashBoard from "./DashBoard";
+
 function App() {
   return (
-    <>
-      <h1 className="underline">hi</h1>
-    </>
+    <div>
+      <div className="flex">
+        <div className="w-1/6">
+          <SideBar />
+        </div>
+        <div className="w-5/6">
+          <NavBar />
+          <DashBoard />
+        </div>
+      </div>
+    </div>
   );
 }
 
