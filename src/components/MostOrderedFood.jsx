@@ -14,7 +14,7 @@ export default function MostOrderedFood() {
   return (
     <div className="mx-1 my-1 py-8 px-12 text-sm">
       <h2 className="text-[14px] py-1">Most Ordered Food</h2>
-      <p className="text-secondary py-2 text-[12px">
+      <p className="text-secondary py-2 text-[12px]">
         Lorem ipsum dolor sit amet consectetur.
       </p>
       <ul className="space-y-2 py-1 text-xs">
