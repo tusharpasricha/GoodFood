@@ -11,8 +11,12 @@ export default {
       background: '#F1F2F7', // Off-Purple
       muted: '#707FDD', // Light Blue
       highlight: '#5A67BA', // Medium Purple
-      fonty:"273240"
-      
+      fonty:"273240",
+      greeny:"green",
+      mutedfont:"737B8B"
+    },
+    fontFamily: {
+      poppins: ['Poppins', 'sans-serif'], // Add Poppins font
     },
   },
   plugins: [],

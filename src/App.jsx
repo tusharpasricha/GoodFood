@@ -5,7 +5,7 @@ import DashBoard from "./DashBoard";
 function App() {
   return (
     <div>
-      <div className="flex">
+      <div className="flex font-poppins tracking-wider">
         <div className="w-1/6">
           <SideBar />
         </div>

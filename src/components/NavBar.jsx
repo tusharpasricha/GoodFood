@@ -1,7 +1,7 @@
-import { FaBell } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
 import { FaSearch } from "react-icons/fa"; 
 import burger from '../assets/burger.svg'
+import noti from "../assets/noti.svg"
 
 export default function NavBar() {
   return (
@@ -27,7 +27,11 @@ export default function NavBar() {
           <span>Delicious Burger</span>
           <IoIosArrowDown />
           <div className="px-4">
-            <FaBell />
+          <img
+          src={noti}
+          alt="noti"
+          className="w-10 h-10 rounded-full shadow-sm px-2"
+        />
           </div>
         </div>
       </div>

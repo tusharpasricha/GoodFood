@@ -1,14 +1,15 @@
 import MostOrderedFood from "./components/MostOrderedFood";
+import Revenue from "./components/Revenue";
 import YourRating from "./components/YourRating";
 
 export default function Dashboard(){
   return (
     <div className=" mx-1 my-1">
-    <h1 className="py-5 mx-10" >Dashboard</h1>
+    <h1 className="py-5 mx-10 text-xl" >Dashboard</h1>
     <div className="flex flex-col w-full">
         <div className="flex w-full">
           <div className="w-2/3 ">
-            Revenue 
+            <Revenue/> 
           </div>
           <div className="w-1/3  border-l-2 border-secondary">
             OrderTime
