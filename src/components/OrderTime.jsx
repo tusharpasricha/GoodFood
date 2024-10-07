@@ -27,7 +27,7 @@ export default function OrderTime() {
           const percentage = ((entry.payload.value / totalValue) * 100).toFixed(2); 
 
           return (
-            <div key={`item-${index}`} style={{ display: "flex", paddingLeft: "40px", paddingRight: "40px"}}>
+            <div key={`item-${index}`} style={{ display: "flex", paddingLeft: "45px", paddingRight: "45px"}}>
               <span
                 style={{
                   display: "inline-block",

@@ -12,7 +12,7 @@ import g from '../assets/g.svg';
 export default function SideBar() {
   return (
     <aside className="bg-background text-sm h-full ">
-      <div className="flex items-center justify-center text-[11px] font-bold text-center text-highlight py-4">
+      <div className="flex items-center text-[11px] font-bold text-center text-highlight py-4 px-8">
         <img
           src={g}
           alt="burger"

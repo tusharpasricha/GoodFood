@@ -6,9 +6,9 @@ import YourRating from "./components/YourRating";
 
 export default function Dashboard(){
   return (
-    <div className=" mx-1 my-1">
+    <div className="px-4">
     <h1 className="pt-10 pb-2 mx-10 text-[18px]" >Dashboard</h1>
-    <div className="flex flex-col w-full">
+    <div className="flex flex-col ">
         <div className="flex w-full">
           <div className="w-[60%] ">
             <Revenue/> 

@@ -109,6 +109,7 @@ import {
           </BarChart>
         </div>
       </div>
+      
     );
   }
   
