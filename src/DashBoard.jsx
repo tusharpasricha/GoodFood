@@ -10,23 +10,23 @@ export default function Dashboard(){
     <h1 className="pt-10 pb-2 mx-10 text-[18px]" >Dashboard</h1>
     <div className="flex flex-col w-full">
         <div className="flex w-full">
-          <div className="w-2/3 ">
+          <div className="w-[60%] ">
             <Revenue/> 
           </div>
-          <div className="w-1/3  border-l border-border">
+          <div className="w-[40%]  border-l border-border">
             <OrderTime/>
           </div>
         </div>
         <div className="border-b border-border"></div>
 
         <div className="flex w-full">
-          <div className="w-1/3 ">
+          <div className="w-[30%] ">
             <YourRating/>
           </div>
-          <div className="w-1/3 border-l border-border">
+          <div className="w-[30%] border-l border-border">
             <MostOrderedFood/>
           </div>
-          <div className=" w-1/3 border-l border-border">
+          <div className=" w-[40%] border-l border-border">
             <Order/>
           </div>
         </div>
@@ -34,4 +34,3 @@ export default function Dashboard(){
     </div>
   );
 };
-

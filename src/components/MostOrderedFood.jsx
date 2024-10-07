@@ -13,16 +13,16 @@ export default function MostOrderedFood() {
 
   return (
     <div className="mx-1 my-1 py-8 px-12 text-sm">
-      <h2 className="text-[14px] py-2">Most Ordered Food</h2>
+      <h2 className="text-[14px] py-1">Most Ordered Food</h2>
       <p className="text-secondary py-2 text-[12px">Lorem ipsum dolor sit amet consectetur.</p>
-      <ul className="space-y-2 py-4 text-xs">
+      <ul className="space-y-2 py-1 text-xs">
         {foodItems.map((item, index) => (
           <li key={index} className="flex items-center justify-between border-b border-border py-4">
             <div className="flex items-center space-x-4">
               <img
                 src={item.image}
                 alt={item.name}
-                className="w-10 h-10 rounded-full shadow-lg"
+                className="w-7 h-7 rounded-full shadow-lg"
               />
               <span className="text-fonty">{item.name}</span>
             </div>

@@ -7,16 +7,16 @@ import noti from "../assets/noti.svg"
 export default function NavBar() {
   return (
     <>
-      <div className="flex justify-between items-start py-3 px-8  ">
+      <div className="flex justify-between items-start py-3 px-10  ">
         <div className="relative w-1/2 py-1">
           <input
             type="text"
             placeholder="Search"
-            className="rounded-lg px-4 py-2 w-full bg-background pr-10 text-[12px]" 
+            className="rounded-lg px-6 py-2 w-full bg-background pr-10 text-[12px]" 
           />
           <FaSearch className="absolute right-3 top-1/2 transform -translate-y-1/2 text-secondary" />
         </div>
-        <div className="flex px-4 py-1 items-center text-sm text-secondary">
+        <div className="flex px-4 py-1 items-center text-sm text-black">
           <div className="flex items-center justify-center w-10 h-10 rounded-full bg-beigee shadow-sm">
           <img
                 src={burger}
