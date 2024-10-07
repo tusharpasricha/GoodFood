@@ -11,6 +11,7 @@ export default {
       background: '#F1F2F7', // Off-Purple
       muted: '#707FDD', // Light Blue
       highlight: '#5A67BA', // Medium Purple
+      fonty:"273240"
       
     },
   },

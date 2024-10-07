@@ -1,3 +1,6 @@
+import MostOrderedFood from "./components/MostOrderedFood";
+import YourRating from "./components/YourRating";
+
 export default function Dashboard(){
   return (
     <div className=" mx-1 my-1">
@@ -15,10 +18,10 @@ export default function Dashboard(){
 
         <div className="flex w-full">
           <div className="w-1/3 ">
-            YourRating
+            <YourRating/>
           </div>
           <div className="w-1/3 border-l-2 border-secondary">
-            MostOrderedFood
+            <MostOrderedFood/>
           </div>
           <div className=" w-1/3 border-l-2 border-secondary">
             Order
