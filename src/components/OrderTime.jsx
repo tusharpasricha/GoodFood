@@ -3,9 +3,9 @@ import { PieChart, Pie, Cell, Tooltip, Legend } from "recharts";
 import Button from "./Button";
 
 const data = [
-  { name: "Afternoon", value: 40, time: "1pm - 4pm", orders: "1,890" },
-  { name: "Evening", value: 32, time: "5pm - 8pm", orders: "1,500" },
-  { name: "Morning", value: 28, time: "9am - 12pm", orders: "1,320" },
+  { name: "Afternoon", value: 1890, time: "1pm - 4pm", orders: "1,890" },
+  { name: "Evening", value: 1400, time: "5pm - 8pm", orders: "1,400" },
+  { name: "Morning", value: 1320, time: "9am - 12pm", orders: "1,320" },
 ];
 
 const COLORS = ["#5a67d8", "#7f9cf5", "#b2b7ff"];
@@ -87,7 +87,6 @@ export default function OrderTime() {
         </div>
       </div>
       <div className="flex justify-center items-center">
-        
         <PieChart width={400} height={300}>
           <Pie
             activeIndex={activeIndex}
@@ -137,14 +136,8 @@ export default function OrderTime() {
               );
             }}
           />
-          <Legend
-            verticalAlign="bottom"
-            height={36}
-            iconType="circle"
-            content={<CustomLegend />}
-          />
+          <Legend content={<CustomLegend />} />
         </PieChart>
-
       </div>
     </div>
   );

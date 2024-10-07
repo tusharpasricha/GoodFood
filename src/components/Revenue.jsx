@@ -100,12 +100,8 @@ export default function Revenue() {
             padding={{ left: -25, right: -25 }}
           />
           <Tooltip />
-          <Legend
-            verticalAlign="bottom"
-            align="left"
-            iconType="circle"
-            content={<CustomLegend />}
-          />
+          <Legend content={<CustomLegend />} />
+          
           <Bar dataKey="last6days" fill="#5A6ACF" barSize={10} />
           <Bar dataKey="lastweek" fill="#E6E8EC" barSize={10} />
         </BarChart>

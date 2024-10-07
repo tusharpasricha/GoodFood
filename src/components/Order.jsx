@@ -103,12 +103,7 @@ export default function Order() {
             padding={{ left: 20, right: 20 }}
           />
           <Tooltip />
-          <Legend
-            verticalAlign="bottom"
-            align="left"
-            iconType="circle"
-            content={<CustomLegend />}
-          />
+          <Legend content={<CustomLegend />} />
 
           <Line
             dataKey="value"
